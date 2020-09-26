@@ -20,7 +20,7 @@ const command = args.shift().toLowerCase();
     message.reply(`Pong! This message had a latency of ${timeTaken}ms.`);
   }
 
- if (command === "about") {
+ else (command === "about") {
     message.reply(`This Bot is for Rag3 clan to mange it's server, Profiles and Make the Server a Better Place`)
     message.reply(`This Bot was built by @Arav Narula#1673!`)
   }
